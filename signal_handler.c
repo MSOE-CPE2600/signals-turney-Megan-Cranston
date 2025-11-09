@@ -4,7 +4,7 @@
  */
 
 /**
- * Modified by:
+ * Modified by: Megan Cranston
  * 
  * Brief summary of modifications:
  */
@@ -20,7 +20,7 @@
  */
 void handle_signal() {
     printf("Received a signal\n");
-    exit(1);
+    // exit(1);
 }
 
 int main() {
