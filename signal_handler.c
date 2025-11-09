@@ -7,6 +7,7 @@
  * Modified by: Megan Cranston
  * 
  * Brief summary of modifications:
+ *      - commented out exit(1) 
  */
 
 

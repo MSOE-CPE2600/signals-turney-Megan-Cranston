@@ -3,6 +3,9 @@
  * Modified by: Megan Cranston
  * 
  * Brief summary of program:
+ *      - Uses sigaction() to register a signal handler for SIGUSR1
+ *      - Enters an infinite loop to wait for the signal
+ *      - Prints the integer sent with the signal
  */
 
  #include <stdio.h>

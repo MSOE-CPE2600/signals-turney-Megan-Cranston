@@ -2,7 +2,8 @@
  * File: signal_alarm.c
  * Modified by: Megan Cranston
  * 
- * Brief summary of program:schedules an alarm to be sent to after 5 seconds
+ * Brief summary of program:
+ *      - schedules an alarm to be sent to after 5 seconds
  */
 
 #include <stdio.h>
@@ -18,7 +19,7 @@ int main() {
     // Register the signal handler for SIGALRM
     signal(SIGALRM, handle_alarm);
 
-    alarm(5);
+    alarm(60);
 
     printf("Alarm set for 5 seconds.\n");
     pause();  // Wait for any signal

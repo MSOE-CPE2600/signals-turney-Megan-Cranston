@@ -3,6 +3,9 @@
  * Modified by: Megan Cranston
  * 
  * Brief summary of program:
+ *      - Takes the PID argument from command line
+ *      - Generates a rand int to send 
+ *      - calls sigqueue to send the signal with the rand int
  */
 
  #include <stdio.h>

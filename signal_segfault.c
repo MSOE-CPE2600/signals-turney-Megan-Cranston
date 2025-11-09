@@ -6,7 +6,9 @@
 /**
  * Modified by: Megan Cranston
  * 
- * Brief summary of modifications:
+ * Brief summary of modifications: 
+ *      - added a handler for the sigsegv
+ *      - called the handler using the signal function
  */
 
 
